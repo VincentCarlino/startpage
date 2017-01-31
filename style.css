@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
-body, a{
+body, a {
 	margin:0;
 	padding:0;
-    /*background-image: url("back.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;*/
     background-color: #82adf2;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -15,8 +11,7 @@ body, a{
     font-weight: 400;
     text-decoration: none;
 }
-.center-div
-{
+.center-div {
     position: absolute;
     margin: auto;
     top: 60px;
@@ -27,22 +22,30 @@ body, a{
     height: 105px;
 }
 
+.settings-div {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+
 /* MAKE DROPDOWN ITEMS SHOW */
 .dropdown:hover .dropdown-menu {display: block;}
 .dropdown .dropdown-menu {
     position: absolute;
-    top: 100%;
+    top: 90%;
     display: none;
     margin: 0;
     list-style: none;
-    width: 100%;
+    width: 90%;
     padding-top: 7px;
     padding-left: 0px;
     color: #eaeaea;
 }
 button1, .drop{
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
+    -webkit-transition-duration: .6s;
+    transition-duration: .6s;
     cursor: pointer;
     background: #333c43;
 }
@@ -51,6 +54,7 @@ button1, .drop{
     padding-left: 10%;
     padding-right: 10%;
 }
+
 
 ul {
     text-align: left;
@@ -72,8 +76,8 @@ ul {
 /* SINGLE LINK BUTTON  
 .dropdown a {display: block;} */
 /* HOVER BAR ON DROPDOWN LINKS */
-.dropdown a:hover {
-    background: rgba(25, 40, 46, 0.5);
+.dropdown a:hover, .settings-div:hover {
+    background: rgb(25, 40, 46);
     color: #82adf2;
 }
 /* DROPDOWN LINK TEXT */
