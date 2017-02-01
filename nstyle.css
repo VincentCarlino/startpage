@@ -67,8 +67,8 @@ input[type=text]:focus {
     color: #eaeaea;
 }
 button1, .drop{
-    -webkit-transition-duration: .6s;
-    transition-duration: .6s;
+    -webkit-transition-duration: .4s;
+    transition-duration: .4s;
     cursor: pointer;
     background: #333c43;
 }
